@@ -43,6 +43,7 @@
             this.button13 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button14 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -158,7 +159,7 @@
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(386, 262);
+            this.button11.Location = new System.Drawing.Point(201, 358);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(86, 90);
             this.button11.TabIndex = 10;
@@ -169,7 +170,7 @@
             // button12
             // 
             this.button12.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(386, 166);
+            this.button12.Location = new System.Drawing.Point(541, 166);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(86, 90);
             this.button12.TabIndex = 11;
@@ -180,7 +181,7 @@
             // button13
             // 
             this.button13.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(386, 70);
+            this.button13.Location = new System.Drawing.Point(541, 70);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(86, 90);
             this.button13.TabIndex = 12;
@@ -203,14 +204,26 @@
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(17, 29);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(455, 35);
+            this.textBox1.Size = new System.Drawing.Size(610, 35);
             this.textBox1.TabIndex = 14;
+            // 
+            // button14
+            // 
+            this.button14.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Location = new System.Drawing.Point(541, 262);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(86, 90);
+            this.button14.TabIndex = 15;
+            this.button14.Text = "X";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.Button14_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(488, 460);
+            this.ClientSize = new System.Drawing.Size(639, 460);
+            this.Controls.Add(this.button14);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button13);
@@ -252,6 +265,7 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button14;
     }
 }
 

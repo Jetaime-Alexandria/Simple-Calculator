@@ -39,13 +39,21 @@ namespace Simple_Calculator
             {
                 result = num1 + num2;
                 textBox1.Text = result.ToString();
+
                             }
             else if (operation == '-')
             {
                 result = num1 - num2;
                 textBox1.Text = result.ToString();
             }
+            else if (operation == '*')
+            {
+                result = num1 - num2;
+                textBox1.Text = result.ToString();
+            }
         }
+
+
 
         private void Button1_Click(object sender, EventArgs e)
         {
@@ -109,6 +117,13 @@ namespace Simple_Calculator
         {
             operand1 = input;
             operation = '-';
+            input = string.Empty;
+        }
+
+        private void Button14_Click(object sender, EventArgs e)
+        {
+            operand1 = input;
+            operation = '*';
             input = string.Empty;
         }
     }
