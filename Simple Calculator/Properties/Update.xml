@@ -3,5 +3,5 @@
     <version>1.0.0.1</version>
     <url>https://www.dropbox.com/s/7lecdeq85zdxmh4/Rondells%20Mod%20Updater.zip?dl=1</url>
     <changelog>https://github.com/ravibpatel/AutoUpdater.NET/releases</changelog>
-    <mandatory>false</mandatory>
+    <mandatory>true</mandatory>
 </item>
