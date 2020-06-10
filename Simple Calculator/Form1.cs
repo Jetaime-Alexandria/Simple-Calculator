@@ -47,8 +47,8 @@ namespace Simple_Calculator
                 textBox1.Text = result.ToString();
             }
             else if (operation == '*')
-            {
-                result = num1 - num2;
+            {              
+                result = num1 * num2;
                 textBox1.Text = result.ToString();
             }
         }
